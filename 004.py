@@ -1,3 +1,5 @@
+# Median of Two Sorted Arrays
+
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         m, n = len(nums1), len(nums2)
