@@ -24,5 +24,4 @@ class Solution(object):
 		max_left = left
 		max_len = right - left + 1
 	    
-	print(max_left, max_len)
 	return s[max_left: max_left+max_len]
