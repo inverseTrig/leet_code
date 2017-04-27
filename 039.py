@@ -20,6 +20,3 @@ class Solution(object):
 	    return
 	for i in xrange(index, len(nums)):
 	    self.dfs(nums, target - nums[i], i, path+[nums[i]], combi)
-
-
-print(Solution().combinationSum([2, 3, 6, 7], 7))
