@@ -8,6 +8,7 @@ const (
 	// MIN is the restrictions of 32-bit signed integer of leetcode.
 	MIN int = -MAX - 1
 )
+
 func reverse(x int) int {
 	temp := x
 	val := 0
